@@ -1,0 +1,27 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+       
+    </title>
+   
+</head>
+
+<body>
+    
+    <ul>
+        <% jokes.forEach(function(joke){ %>
+            <li>
+                <%= joke %>
+            </li>
+            <% }); %>
+    </ul>
+    <br>
+    Times viewed: <%= count %>
+    <a href="/">Main page</a>
+</body>
+
+</html>
