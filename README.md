@@ -1,1 +1,2 @@
-husk altid npm start
+husk altid npm install for node_modules
+
